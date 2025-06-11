@@ -1,0 +1,7 @@
+ - name: maven Artifact
+   hosts: local
+   become: true
+   tasks:
+     - name: example task
+       debug:
+         msg: "hello,This is swapnil"
